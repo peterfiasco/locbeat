@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locbeat - Eyebrows & Ecommerce</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">Locbeat</a>
+            <div class="flex items-center">
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Home</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Shop</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Appointments</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 mx-4">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Locbeat</h1>
+            <p class="text-xl text-gray-600 mb-8">Your one-stop shop for eyebrow services and beauty products</p>
+            <a href="#" class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Featured Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200" alt="Product 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Eyebrow Pencil</h3>
+                        <p class="text-gray-600 mb-4">Perfect for defining and shaping your eyebrows</p>
+                        <span class="text-blue-500 font-bold">$12.99</span>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200" alt="Product 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Eyebrow Gel</h3>
+                        <p class="text-gray-600 mb-4">Long-lasting hold for perfectly styled brows</p>
+                        <span class="text-blue-500 font-bold">$15.99</span>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://via.placeholder.com/300x200" alt="Product 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Eyebrow Brush Set</h3>
+                        <p class="text-gray-600 mb-4">Professional-grade brushes for flawless application</p>
+                        <span class="text-blue-500 font-bold">$24.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Booking -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Book an Appointment</h2>
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-lg" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-lg" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="service" class="block text-gray-700 font-bold mb-2">Service</label>
+                        <select id="service" name="service" class="w-full px-3 py-2 border rounded-lg" required>
+                            <option value="">Select a service</option>
+                            <option value="eyebrow_shaping">Eyebrow Shaping</option>
+                            <option value="eyebrow_tinting">Eyebrow Tinting</option>
+                            <option value="microblading">Microblading</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="date" class="block text-gray-700 font-bold mb-2">Date</label>
+                        <input type="date" id="date" name="date" class="w-full px-3 py-2 border rounded-lg" required>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Locbeat</h3>
+                    <p>Your trusted partner for eyebrow services and beauty products</p>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul>
+                        <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Shop</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Appointments</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <p>123 Main St, City, State 12345</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@locbeat.com</p>
+                </div>
+                <div class="w-full md:w-1/4">
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-gray-300">Facebook</a>
+                        <a href="#" class="hover:text-gray-300">Instagram</a>
+                        <a href="#" class="hover:text-gray-300">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p>&copy; 2023 Locbeat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
