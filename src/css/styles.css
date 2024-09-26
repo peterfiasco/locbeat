@@ -1,4 +1,5 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import 'pagedone/dist/css/pagedone.min.css';
+/* Remove or comment out the Pagedone import for now */
+/* @import 'pagedone/dist/css/pagedone.min.css'; */

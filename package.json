@@ -4,10 +4,10 @@
   "description": "Locbeat ecommerce and appointment booking site",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:css && live-server src",
-    "build:css": "tailwindcss -i src/css/styles.css -o src/css/output.css",
-    "watch:css": "tailwindcss -i src/css/styles.css -o src/css/output.css --watch"
-  },
+  "build:css": "tailwindcss -i src/css/styles.css -o src/css/output.css",
+  "watch:css": "tailwindcss -i src/css/styles.css -o src/css/output.css --watch",
+  "start": "npm run build:css && live-server src"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
