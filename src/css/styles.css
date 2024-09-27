@@ -3,7 +3,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import 'pagedone-ui/dist/pagedone-ui.css';
+
+/* Temporarily remove this import until we can resolve the issue */
+/* @import 'pagedone/dist/css/pagedone.min.css'; */
 
 body {
   font-family: 'Inter', 'Plus Jakarta Sans', sans-serif;
